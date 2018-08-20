@@ -17,6 +17,17 @@ import SearchBox from './SearchBox'
 // it('expect to render Card component', () =>{
 //   expect(shallow(<Card />).length).toEqual(1)
 // })
+// let wrapper
+
+// beforeEach(() => {
+//   const mockProps = {
+//     onRequestRobots: jest.fn(),
+//     robots: [],
+//     searchField: '',
+//     isPendinf: false
+//   } 
+//   wrapper = shallow(<MainPage { ...mockProps }/>)
+// })
 
 // ReactTest 3
 it('Card component Snapshot', () => {
@@ -70,3 +81,4 @@ it('ErrorBoundry component Snapshot', () => {
 it('Header component Snapshot', () => {
   expect(shallow(<Header />)).toMatchSnapshot()
 })
+
